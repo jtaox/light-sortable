@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>light-sortable</title>
+  <style>
+    * { margin: 0; padding: 0 }
+    ul {
+      width: 200px;
+      margin: 0 auto;
+    }
+    li {
+      background-color: aquamarine;
+      color: #fff;
+      list-style: none;
+      height: 50px;
+      transition: all 150ms;
+      will-change: transfrom;
+      font-size: 36px;
+      text-align: center;
+      line-height: 50px;
+      box-sizing: border-box;
+      border-top: 1px solid #fff;
+    }
+  </style>
+</head>
+<body>
+  <ul id="ul">
+    <li id="test" draggable="true">2</li>
+    <li draggable="true">1</li><li draggable="true">3</li>
+    <li draggable="true">4</li>
+    <li draggable="true">5</li>
+    <li draggable="true">6</li>
+  </ul>
+</body>
+<script src="./light-sortable.js"></script>
+</html>
